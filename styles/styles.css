@@ -23,9 +23,25 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
 }
 
 .logo {
+  display: inline-block;
   color: var(--accent-color);
 
   font-family: Raleway;
@@ -137,6 +153,9 @@ img {
 
 .list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .logo:focus,
