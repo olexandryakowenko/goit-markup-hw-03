@@ -28,7 +28,7 @@ body {
   background-color: var(--bg-color);
   color: var(--primary-text-color);
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -92,7 +92,7 @@ p {
 }
 
 .top .logo {
-  padding-top: 24px;
+  padding-top: 25px;
   padding-bottom: 25px;
   margin-right: 93px;
 }
@@ -159,7 +159,6 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
   background-color: var(--bg-hero-footer-color);
 }
 
